@@ -6,31 +6,59 @@
         src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
         type="module"
     ></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600&family=Montserrat:wght@300;400;600;700&family=Lora:wght@400;500;600&family=Oswald:wght@300;400;500&family=Crimson+Text:wght@400;600&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Clan Cienaga | Barranquilla</title>
 </head>
 <body>
-    <video src="./videos/videoplayback.webm" autoplay class="video-prin"></video>
+    <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
     <div class="content-wrapper">
         <header>
             <section>
                 <nav class="navbar">
+                    <input type="checkbox" name="menu-toggle" id="menu-toggle">
+                    <label class="material-symbols-outlined menu-responsive" for="menu-toggle" id="menu-responsive">   
+                        menu
+                    </label>
                     <div class="section-left">
-                        <img src="" alt="">
-                        <p>Lorem Ipsum</p>
+                        <img src="./images/logo-prin.webp" alt="log-principal-clan-cienaga" width="50px" height="50px">
+                        <p id="logo-prin">Clan Cienaga</p>
                         <li><a href="">Inicio</a></li>
                         <li><a href="">Sobre Nosotros</a></li>
                         <li><a href="">Proyectos</a></li>
                     </div>
                     <div class="section-right">
+                        <li><a href="" id="hidden-comments">Comentarios</a></li>
+                        <span class="material-symbols-outlined comments">
+                            comment
+                        </span>
+                        <li><a href="" id="bg-contact">Contactanos</a></li>
+                        <span class="material-symbols-outlined contact">
+                            mail
+                        </span>
+                    </div>
+                    <div class="mobile-menu">
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Sobre Nosotros</a></li>
+                        <li><a href="">Proyectos</a></li>
                         <li><a href="">Comentarios</a></li>
-                        <li><a href="">Contactanos</a></li>
+                        <li><a href="" id="bg-contact-mobile">Contactanos</a></li>
                     </div>
                 </nav>
             </section>
         </header>
-        <main></main>
+        <main>
+            <div class="hero-content">
+                <h1>Un equipo de programación con soluciones creativas</h1>
+            </div>
+        </main>
         <footer></footer>
     </div>
 </body>
