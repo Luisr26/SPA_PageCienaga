@@ -311,7 +311,7 @@ body {
 }
 .about-us-main-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     height: 100vh;
     width: 100%;
     background-color: #1a0b2e;
@@ -321,13 +321,26 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 40em;
-    border-radius: 30px;
+    height: 30em;
     overflow: hidden;
     justify-content: center;
     align-items: center;
 }
+#title-about-me{
+    grid-column: 1/4;
+    height: 10em;
+    background-color: red;
+}
 
+#values-about-me{
+    grid-column: 1/4;
+    background-color: blue;
+    height: 12em;
+}
+
+.value-flex{
+    display: flex;
+}
 
 @media (max-width:1215px) {
     #bg-contact{
