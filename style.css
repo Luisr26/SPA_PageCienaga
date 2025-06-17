@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.video-prin{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 3em;
+    align-items: center;
+    position: relative;
+}
+
+.section-left{
+    display: flex;
+    gap: 2em;
+    list-style: none;
+}
+
+.section-left>li>a{
+    text-decoration: none;
+}
+
+.section-right{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    justify-content: right;
+    margin-right: 2em;
+}
+
+.section-right>li>a{
+    text-decoration: none;
+}
