@@ -165,7 +165,8 @@ body {
    gap: 2em;
    justify-content: center;
    align-items: center;
-   height: 100vh;
+   width: 100%;
+   height:100vh;
 }
 
 .hero-content h1 {
@@ -342,7 +343,9 @@ body {
     width: 300px;
     height: 300px;
     object-fit: cover;
+    border: 5px solid #16213e;
     border-radius: 50%;
+    box-shadow: 0px 0px 10px #16213e;
 }
 
 #title-about-me{
@@ -370,6 +373,16 @@ body {
 .landing-about{
     background-color: #16213e;
     color: white;
+    border-radius:20px 20px 0px 0px;
+    overflow: hidden;
+}
+
+.landing-about>article>span{
+    background-color:#015871;
+    width: 100%;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width:1215px) {
@@ -407,6 +420,7 @@ body {
     .hero-content{
         display: flex;
         flex-direction: column;
+        height: 120vh;
     }
 
     .video-main>video{
