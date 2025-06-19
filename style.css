@@ -82,7 +82,7 @@ body {
    align-items: center;
    position: fixed;
    width: 100%;
-   padding: 0 2em;
+   padding: 0 7em;
    backdrop-filter: blur(10px);
    font-family: 'Inter', sans-serif;
    z-index: 9999999;
@@ -173,6 +173,7 @@ body {
    align-items: center;
    width: 100%;
    min-height: 100vh;
+   padding: 0rem 8rem;
 }
 
 .hero-content h1 {
@@ -193,11 +194,35 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: left;
+}
+
+.text-hero>h1{
+    color: whitesmoke;
+    text-align: left;
 }
 
 .text-hero>p{
     color: whitesmoke;
+    text-align: left;
+}
+
+.btn-agendar{
+    display: flex;
+    width: 100%;
+    height: 8rem;
+    align-items: center;
+}
+
+.btn-agendar>a>button{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color:#0099e6;
+    color: white;
+    font-weight: bold;
+    border: 2px solid transparent;
 }
 
 .menu-responsive{
