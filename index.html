@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <script
-        src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
-        type="module"
-    ></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600&family=Montserrat:wght@300;400;600;700&family=Lora:wght@400;500;600&family=Oswald:wght@300;400;500&family=Crimson+Text:wght@400;600&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600&family=Montserrat:wght@300;400;600;700&family=Lora:wght@400;500;600&family=Oswald:wght@300;400;500&family=Crimson+Text:wght@400;600&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600&family=Merriweather:wght@300;400;700&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Clan Cienaga | Barranquilla</title>
 </head>
+
 <body>
     <div class="ocean">
         <div class="wave"></div>
@@ -24,18 +28,18 @@
             <section>
                 <nav class="navbar">
                     <input type="checkbox" name="menu-toggle" id="menu-toggle">
-                    <label class="material-symbols-outlined menu-responsive" for="menu-toggle" id="menu-responsive">   
+                    <label class="material-symbols-outlined menu-responsive" for="menu-toggle" id="menu-responsive">
                         menu
                     </label>
                     <div class="section-left">
                         <img src="./images/logo-prin.webp" alt="log-principal-clan-cienaga" width="50px" height="50px">
                         <p id="logo-prin">Clan Cienaga</p>
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">Sobre Nosotros</a></li>
-                        <li><a href="">Proyectos</a></li>
+                        <li><a href="#main">Inicio</a></li>
+                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="#projects">Proyectos</a></li>
                     </div>
                     <div class="section-right">
-                        <li><a href="" id="hidden-comments">Comentarios</a></li>
+                        <li><a href="#comments" id="hidden-comments">Comentarios</a></li>
                         <span class="material-symbols-outlined comments">
                             comment
                         </span>
@@ -55,10 +59,12 @@
             </section>
         </header>
         <main>
-            <div class="hero-content">
+            <div class="hero-content" id="main">
                 <article class="text-hero">
                     <h1>Un equipo de programación con soluciones creativas</h1>
-                    <p>Aspiramos a que nuestros proyectos impacten positivamente la vida de millones de personas, convirtiendo a Barranquilla en un hub tecnológico que atraiga inversión, talento y oportunidades para las nuevas generaciones.</p>
+                    <p>Aspiramos a que nuestros proyectos impacten positivamente la vida de millones de personas,
+                        convirtiendo a Barranquilla en un hub tecnológico que atraiga inversión, talento y oportunidades
+                        para las nuevas generaciones.</p>
                 </article>
                 <article class="container-video-main">
                     <div class="video-main">
@@ -76,124 +82,467 @@
                             <span>Nike</span>
                         </div>
                         <div class="empresa">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+                                alt="Microsoft">
                             <span>Microsoft</span>
                         </div>
                         <div class="empresa">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="Apple">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg"
+                                alt="Apple">
                             <span>Apple</span>
                         </div>
                         <div class="empresa">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+                                alt="Google">
                             <span>Google</span>
                         </div>
                         <div class="empresa">
-                            <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Amazon_icon.svg" alt="Amazon" width="40">
+                            <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Amazon_icon.svg"
+                                alt="Amazon" width="40">
                             <span>Amazon</span>
-                        </div>
-                        <div class="empresa">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" alt="Facebook" width="40">
-                            <span>Facebook</span>
-                        </div>
-                        <div class="empresa">
-                            <img src="https://www.svgrepo.com/show/330669/ibm.svg" alt="IBM" width="40">
-                            <span>IBM</span>
-                        </div>
-                        <div class="empresa">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" width="40">
-                            <span>Netflix</span>
-                        </div>
-                        <div class="empresa">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Intel_logo_2023.svg" alt="">
-                            <span>Intel</span>
-                        </div>
-                        <div class="empresa">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="">
-                            <span>Samsung</span>
                         </div>
                     </div>
                 </article>
             </div>
-            <div class="about-us-main-container">
-                <section id="title-about-me">
-                    <article>
-                        <h3>Vision | Mision | valores</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime unde magnam ratione corporis culpa deleniti, voluptatem nostrum libero nisi minus.</p>
-                    </article>
+            <div class="about-us-main-container" id="about">
+                <section class="hero-section">
+                    <h1>Vision | Mision | Valores</h1>
+                    <p>Transformamos el Caribe colombiano a través de la innovación tecnológica, conectando talento
+                        local con oportunidades globales. Con creatividad caribeña y excelencia técnica, desarrollamos
+                        soluciones digitales que generan impacto real desde Barranquilla hacia el mundo.</p>
                 </section>
-                <section class="mision-cienaga landing-about">
-                    <article>
-                        <span class="material-symbols-outlined">
-                            visibility
-                        </span>
+
+                <section class="main-content">
+                    <div class="mission-section">
+                        <div class="icon-container">
+                            <span class="material-symbols-outlined">visibility</span>
+                        </div>
                         <h2>Mision</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione similique, nostrum excepturi dicta doloribus repellendus? Vel corrupti itaque aut vitae!</p>
-                    </article>
-                </section>
-                <section class="img-about">
-                    <article>
-                        <img src="https://riwi.io/wp-content/uploads/2023/12/2.png" alt="Personas trabajado en equipo" width="100" height="100">
-                    </article>
-                </section>
-                <section class="vision-cienaga landing-about">
-                    <article>
-                        <span class="material-symbols-outlined">
-                            flag
-                        </span>
+                        <p>Transformar la región atlántica de Colombia a través de la innovación tecnológica,
+                            desarrollando soluciones digitales que impulsen el crecimiento económico local, fortalezcan
+                            las capacidades técnicas de nuestra comunidad y conecten el talento de Barranquilla con las
+                            oportunidades del mundo digital.</p>
+                    </div>
+
+                    <div class="image-section">
+                        <img src="https://riwi.io/wp-content/uploads/2023/12/2.png" alt="Personas trabajado en equipo">
+                    </div>
+
+                    <div class="vision-section">
+                        <div class="icon-container">
+                            <span class="material-symbols-outlined">flag</span>
+                        </div>
                         <h2>Vision</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reiciendis tempore dignissimos et atque illum. Illo, voluptas. Non, aut at!</p>
-                    </article>
+                        <p>Ser reconocidos para 2030 como el hub tecnológico líder del Caribe colombiano, donde la
+                            creatividad local se fusiona con la excelencia técnica para generar productos y servicios
+                            digitales de clase mundial, posicionando a Barranquilla y a la región atlántica como
+                            referente de transformación digital en América Latina.</p>
+                    </div>
                 </section>
-                <section id="values-about-me" class="value-flex">
-                    <div class="items">
-                        <article>
-                            <span class="material-symbols-outlined">
-                                mountain_flag
-                            </span>
+
+                <section class="values-section">
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <span class="material-symbols-outlined">mountain_flag</span>
+                        </div>
+                        <div class="value-content">
                             <h3>Liderazgo</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, sunt?</p>
-                        </article>
+                            <p>Inspiramos y guiamos a nuestro equipo hacia la excelencia, tomando decisiones valientes
+                                que marquen el rumbo de la innovación tecnológica en el Caribe colombiano.</p>
+                        </div>
                     </div>
-                    <div class="items">
-                        <article>
-                            <span class="material-symbols-outlined">
-                                diversity_3
-                            </span>
+
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <span class="material-symbols-outlined">diversity_3</span>
+                        </div>
+                        <div class="value-content">
                             <h3>Integridad</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, delectus?</p>
-                        </article>
+                            <p>Actuamos con honestidad y transparencia en cada proyecto, construyendo relaciones sólidas
+                                basadas en la confianza y el respeto mutuo con nuestros clientes y colaboradores.</p>
+                        </div>
                     </div>
-                    <div class="items">
-                        <article>
-                            <span class="material-symbols-outlined">
-                                shield_with_heart
-                            </span>
-                            <h3>Pasion</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nihil.</p>
-                        </article>
+
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <span class="material-symbols-outlined">shield_with_heart</span>
+                        </div>
+                        <div class="value-content">
+                            <h3>Pasión</h3>
+                            <p>Amamos lo que hacemos y lo demostramos en cada línea de código, cada diseño y cada
+                                solución que desarrollamos con entusiasmo y dedicación absoluta.</p>
+                        </div>
                     </div>
-                    <div class="items">
-                        <article>
-                            <span class="material-symbols-outlined">
-                                volunteer_activism
-                            </span>
-                            <h3>Colaboracion</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, eveniet!</p>
-                        </article>
+
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <span class="material-symbols-outlined">volunteer_activism</span>
+                        </div>
+                        <div class="value-content">
+                            <h3>Colaboración</h3>
+                            <p>Creemos en el poder del trabajo en equipo, compartiendo conocimiento y experiencias para
+                                crear soluciones más innovadoras y efectivas que beneficien a toda la comunidad.</p>
+                        </div>
                     </div>
-                    <div class="items">
-                        <article>
-                            <span class="material-symbols-outlined">
-                                diversity_1
-                            </span>
+
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <span class="material-symbols-outlined">diversity_1</span>
+                        </div>
+                        <div class="value-content">
                             <h3>Humanidad</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, blanditiis.</p>
-                        </article>
+                            <p>Ponemos a las personas en el centro de nuestra tecnología, desarrollando soluciones que
+                                mejoren la calidad de vida y generen un impacto positivo en nuestra sociedad.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="container-projects" id="projects">
+                <section class="projects-section">
+                    <div class="section-header">
+                        <h2>Nuestros Proyectos</h2>
+                        <p>Soluciones digitales que transforman el Caribe colombiano</p>
+                    </div>
+
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <span class="material-symbols-outlined">web</span>
+                            </div>
+                            <div class="project-content">
+                                <h3>CaribeTech Platform</h3>
+                                <p>Plataforma de e-commerce especializada para empresas del Caribe colombiano,
+                                    integrando pagos locales y logística regional para impulsar el comercio digital.</p>
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-image">
+                                <span class="material-symbols-outlined">smartphone</span>
+                            </div>
+                            <div class="project-content">
+                                <h3>Barranquilla Connect</h3>
+                                <p>Aplicación móvil que conecta ciudadanos con servicios municipales, facilitando
+                                    trámites, reportes ciudadanos y acceso a información gubernamental en tiempo real.
+                                </p>
+                                <div class="project-tech">
+                                    <span>Flutter</span>
+                                    <span>Firebase</span>
+                                    <span>API REST</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <span class="material-symbols-outlined">analytics</span>
+                            </div>
+                            <div class="project-content">
+                                <h3>Atlántico Data Hub</h3>
+                                <p>Sistema de análisis de datos para empresas de la región atlántica, proporcionando
+                                    insights estratégicos y dashboards interactivos para la toma de decisiones.</p>
+                                <div class="project-tech">
+                                    <span>Python</span>
+                                    <span>Django</span>
+                                    <span>PostgreSQL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <span class="material-symbols-outlined">database</span>
+                            </div>
+                            <div class="project-content">
+                                <h3>SoldadDB</h3>
+                                <p>para pequeñas y medianas empresas del Atlántico, optimizando la gestión de
+                                    inventarios, clientes y procesos administrativos con alta disponibilidad y
+                                    seguridad.</p>
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <span class="material-symbols-outlined">backup_table</span>
+                            </div>
+                            <div class="project-content">
+                                <h3>CaribeDash - Dashboard Inteligente</h3>
+                                <p>Panel de control analítico que integra múltiples fuentes de datos empresariales,
+                                    proporcionando métricas en tiempo real y reportes automatizados para la toma de
+                                    decisiones estratégicas.</p>
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <span class="material-symbols-outlined">attach_money</span>
+                            </div>
+                            <div class="project-content">
+                                <h3>AtlánticoPay - Plataforma de Pagos</h3>
+                                <p>
+                                    Plataforma financiera regional que facilita transacciones digitales entre comercios
+                                    locales y consumidores, integrando métodos de pago tradicionales y digitales del
+                                    ecosistema caribeño.</p>
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="testimonials-container" id="comments">
+                <section class="testimonials-section">
+                    <div class="testimonials-header">
+                        <h2>Lo que dicen nuestros clientes</h2>
+                        <p>Empresas líderes confían en nuestras soluciones tecnológicas</p>
+                    </div>
+
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="company-logo">
+                                <span>TESLA</span>
+                            </div>
+                            <p>"Su enfoque innovador en desarrollo de software nos ayudó a optimizar nuestros procesos
+                                de manufactura en América Latina. Excelente trabajo técnico y visión estratégica."</p>
+                            <div class="testimonial-author">
+                                <h4>María González</h4>
+                                <span>VP de Operaciones Latam</span>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="company-logo facebook">
+                                <span>FACEBOOK</span>
+                            </div>
+                            <p>"La calidad de sus desarrolladores y la capacidad de entregar soluciones escalables nos
+                                impresionó. Han sido un socio estratégico clave para nuestros proyectos en la región."
+                            </p>
+                            <div class="testimonial-author">
+                                <h4>Carlos Rodríguez</h4>
+                                <span>Director de Ingeniería</span>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="company-logo google">
+                                <span>GOOGLE</span>
+                            </div>
+                            <p>"Su expertise en tecnologías emergentes y comprensión del mercado latinoamericano los
+                                convierte en un aliado invaluable para el crecimiento de nuestras iniciativas."</p>
+                            <div class="testimonial-author">
+                                <h4>Ana Martínez</h4>
+                                <span>Product Manager</span>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="company-logo oracle">
+                                <span>ORACLE</span>
+                            </div>
+                            <p>"La integración de sus soluciones con nuestras bases de datos empresariales fue perfecta.
+                                Demostraron un profundo conocimiento técnico y profesionalismo excepcional."</p>
+                            <div class="testimonial-author">
+                                <h4>Roberto Silva</h4>
+                                <span>Solutions Architect</span>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="company-logo intel">
+                                <span>INTEL</span>
+                            </div>
+                            <p>"Su capacidad para desarrollar aplicaciones de alto rendimiento y su comprensión de
+                                arquitecturas complejas superó nuestras expectativas. Recomendamos su trabajo."</p>
+                            <div class="testimonial-author">
+                                <h4>Patricia López</h4>
+                                <span>Senior Software Engineer</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="contact-container">
+                <section class="contact-section">
+                    <div class="contact-header">
+                        <h2>Contactanos</h2>
+                        <p>¿Tienes un proyecto en mente? Conversemos sobre cómo podemos ayudarte</p>
+                    </div>
+
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <div class="info-item">
+                                <span class="material-symbols-outlined">location_on</span>
+                                <div>
+                                    <h4>Ubicación</h4>
+                                    <p>Barranquilla, Atlántico<br>Colombia</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="material-symbols-outlined">mail</span>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>contacto@caribetech.co<br>ventas@caribetech.co</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="material-symbols-outlined">call</span>
+                                <div>
+                                    <h4>Teléfono</h4>
+                                    <p>+57 (5) 123-4567<br>+57 300 123 4567</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="material-symbols-outlined">schedule</span>
+                                <div>
+                                    <h4>Horarios</h4>
+                                    <p>Lun - Vie: 8:00 AM - 6:00 PM<br>Sáb: 9:00 AM - 2:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nombre completo</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company">Empresa</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Teléfono</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service">Tipo de servicio</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Selecciona un servicio</option>
+                                    <option value="web-development">Desarrollo Web</option>
+                                    <option value="mobile-app">Aplicación Móvil</option>
+                                    <option value="database">Base de Datos</option>
+                                    <option value="dashboard">Dashboard</option>
+                                    <option value="platform">Plataforma Digital</option>
+                                    <option value="consulting">Consultoría</option>
+                                    <option value="other">Otro</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="5"
+                                    placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <span class="material-symbols-outlined">send</span>
+                                Enviar mensaje
+                            </button>
+                        </form>
                     </div>
                 </section>
             </div>
         </main>
-        <footer></footer>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <div class="footer-logo">
+                            <h3>CaribeTech</h3>
+                            <p>Transformando el Caribe colombiano a través de la innovación tecnológica</p>
+                        </div>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Servicios</h4>
+                        <ul>
+                            <li><a href="#">Desarrollo Web</a></li>
+                            <li><a href="#">Aplicaciones Móviles</a></li>
+                            <li><a href="#">Bases de Datos</a></li>
+                            <li><a href="#">Dashboards</a></li>
+                            <li><a href="#">Plataformas Digitales</a></li>
+                            <li><a href="#">Consultoría Tech</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#">Sobre Nosotros</a></li>
+                            <li><a href="#">Nuestro Equipo</a></li>
+                            <li><a href="#">Proyectos</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Carreras</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Recursos</h4>
+                        <ul>
+                            <li><a href="#">Documentación</a></li>
+                            <li><a href="#">Centro de Ayuda</a></li>
+                            <li><a href="#">Términos y Condiciones</a></li>
+                            <li><a href="#">Política de Privacidad</a></li>
+                            <li><a href="#">Soporte Técnico</a></li>
+                            <li><a href="#">API</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Contacto</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <span class="material-symbols-outlined">location_on</span>
+                                <p>Barranquilla, Atlántico<br>Colombia</p>
+                            </div>
+                            <div class="contact-item">
+                                <span class="material-symbols-outlined">mail</span>
+                                <p>contacto@caribetech.co</p>
+                            </div>
+                            <div class="contact-item">
+                                <span class="material-symbols-outlined">call</span>
+                                <p>+57 (5) 123-4567</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-bottom-content">
+                        <p>&copy; 2025 CaribeTech. Todos los derechos reservados.</p>
+                        <div class="footer-links">
+                            <a href="#">Privacidad</a>
+                            <a href="#">Términos</a>
+                            <a href="#">Cookies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
