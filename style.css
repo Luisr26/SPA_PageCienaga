@@ -223,6 +223,11 @@ body {
     color: white;
     font-weight: bold;
     border: 2px solid transparent;
+    transition: all .4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.btn-agendar>a>button:hover{
+    background-color: #015871;
 }
 
 .menu-responsive{
